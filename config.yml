@@ -1,0 +1,20 @@
+title: The Development Cycle
+description: >-
+  Join a team of top developers lead by Mr. Carl Bellitti.  Mr. Bellitti is one
+  of the top Sr. programming developers in the country.  His experience spans
+  multiple industries that include Power, app development, Streaming Media and
+  the Financial industry.
+template:
+  repo: the-development-cycle-template
+  name: the-development-cycle
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
